@@ -1,0 +1,17 @@
+# Détection automatique par défaut
+* text=auto
+
+# Fins de ligne Windows (CRLF) à l'extraction, sur tout système
+*.ps1 text eol=crlf
+
+# Fins de ligne Unix (LF)
+*.md text eol=lf
+
+# Fichiers binaires, jamais convertis
+*.p7b binary
+
+# Conservation stricte d'outil Microsoft embarqué, pour éviter les problèmes de compatibilité avec les outils Microsoft embarqué.
+dgreadiness_v3.6/** -text
+
+# Outil Microsoft exclu des statistiques de langages affichées par GitHub
+dgreadiness_v3.6/** linguist-vendored

@@ -1,0 +1,23 @@
+# Données générées par les scripts
+original-state.json
+original-state.restored-*.json
+snapshot-*.json
+nested-virt-enabling*.log
+PowerShell_transcript.*.txt
+
+# Archives locales
+*.zip
+
+# Fichiers temporaires et sauvegardes
+*.tmp
+*.bak
+*~
+
+# Système d'exploitation
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
